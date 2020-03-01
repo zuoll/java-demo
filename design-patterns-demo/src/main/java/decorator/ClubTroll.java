@@ -5,27 +5,27 @@ package decorator;
  */
 public class ClubTroll implements Troll {
 
-    private Troll decoratoed;
+    private Troll decorated;
 
-    public ClubTroll(Troll decoratoed) {
-        this.decoratoed = decoratoed;
+    public ClubTroll(Troll decorated) {
+        this.decorated = decorated;
     }
 
 
     @Override
     public void attack() {
-        decoratoed.attack();
+        decorated.attack();
 
         System.out.println("the troll can swing with a club");
     }
 
     @Override
     public int getAttackPower() {
-        return decoratoed.getAttackPower() + 10;
+        return decorated.getAttackPower() + 10;
     }
 
     @Override
     public void fleeBattle() {
-        decoratoed.fleeBattle();
+        decorated.fleeBattle();
     }
 }
