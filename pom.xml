@@ -16,6 +16,9 @@
         <module>netty-demo</module>
         <module>reactor-netty-demo</module>
         <module>design-patterns-demo</module>
+        <module>spring-cloud-official-sample</module>
+        <module>spring-cloud-gateway-demo2</module>
+        <module>spring-boot-demo</module>
     </modules>
 
     <dependencyManagement>
