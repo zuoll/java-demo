@@ -1,0 +1,2 @@
+异步方法
+类似java中的JUC的Future
